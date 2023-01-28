@@ -425,7 +425,7 @@ background-color: var(--hover-social-list-background-color);
   padding-top: 96px;
 }
 .portfolio-btn {
-  background: var(--portfolio-btn-background-color);
+  background-color: var(--portfolio-btn-background-color);
   color: var(--portfolio-btn-text-color);
 
   font-family: "Roboto", sans-serif;
@@ -438,10 +438,10 @@ background-color: var(--hover-social-list-background-color);
   padding: 12px 24px;
   border: 1px solid var(--portfolio-btn-border-color);
   border-radius: 4px;
-  transition: color var(--transition-dur), color var(--transition-dur), border-color var(--transition-dur), box-shadow var(--transition-dur);
+  transition: color var(--transition-dur), background-color var(--transition-dur), border-color var(--transition-dur), box-shadow var(--transition-dur);
 }
 .portfolio-btn:is(:hover, :focus){
-  background: var(--hover-portfolio-btn-background-color);
+  background-color: var(--hover-portfolio-btn-background-color);
   color: var(--hover-portfolio-btn-text-color);
   border-color: var(--hover-portfolio-btn-background-color);
   box-shadow: var(--hover-focus-portfolio-btn-box-shadow-color);
@@ -631,7 +631,7 @@ right: 24px;
 .modal-window-close-btn-icon{
   width: 8px;
   height: 8px;
-  fill: var(--modal-window-close-btn-icon-color);
+  fill: currentColor;
   transition: fill var(--transition-dur);
 }
 .modal-window-close-btn:hover,
